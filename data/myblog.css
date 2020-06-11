@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+    background-color: #F2F1F1;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.normal-bar{
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1FA72F;
+    color: white;
+    border-radius: 18px 18px 0 0;
+}
+.normal-box{
+    border: #666666 2px solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1FA72F;
+    width: 100%;
+    height: 70%;
+    box-shadow: 0 2px 6px;
+}
+.header-contents{
+    width: 100%;
+    height: 70px;
+}
+.header-logg{
+    font-size: 40px;
+    line-height: 70px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+.header-right{
+    margin-right: 50px;
+}
+.header-menu li{
+    line-height: 70px;
+    width: 100px;
+    margin: 0 20px;
+    text-align: center;
+}
+.header-menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    transition: 0.5s;
+    line-height: 70px;
+}
+.header-menu a:hover{
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.icatch-img{
+    background-image: url(top.jpg);
+    background-size: cover;
+    width: 90%;
+    margin: 10px auto;
+    height: 418px;
+    border: black 1px solid;
+    position: relative;
+}
+.icatch-title{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: white;
+    font-size: 3em;
+    text-shadow: #3C3939 10px 7px;
+}
+.top{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.top-left{
+    width: 19%;
+    height: 600px;
+}
+.twitter-box a{
+    height: 600px;
+}
+.top-center{
+    width: 56%;
+}
+.center-bar{
+    width: 100%;
+    height: 48px;
+    background-color: #1FA72F;
+    color: white;
+    box-shadow: 0 2px 4px black;
+    font-size: 24px;
+    line-height: 48px;
+    border-radius: 3px;
+}
+.center-bar p{
+    margin-left: 40px;
+}
+
+.top-right{
+    width: 22%;
+}
+.kizi-zone{
+    width: 80%;
+    margin: 0 auto;
+}
+.saisin-kizi{
+    width: 100%;
+    height: 430px;
+    background-color: #C4C4C4;
+    box-shadow: 0 2px 4px black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.kizi-name{
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #3C3939;
+    border-radius: 5px;
+}
+.kizi-day{
+    text-align: right;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.kizi-img{
+    width: 95%;
+    margin: 10px auto;
+    height: 300px;
+}
+.kizi-img img{
+    width: 100%;
+    height: 100%;
+}
+.center-link{
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+.center-link:hover{
+    text-decoration: underline;
+}
+.titlebetu{
+    width: 100%;
+    height: 380px;
+}
+.titlebetu-box{
+    margin-top: 10px;
+}
+.titlebetu-box li,a{
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    color: #666666;
+    margin-left: 10px;
+}
+.titlebetu-box a:hover{
+    text-decoration: underline;
+}
+.osusume{
+    margin-top: 10px;
+    height: 300px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1FA72F;
+}
+.footer-title{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 1.3em;
+}
+.footer-menu{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-menu a{
+    color: white;
+}
+.footer-menu a:hover{
+    color: rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 50px;
+        line-height: 50px;
+    }
+    .header-logg{
+        height: 50px;
+        font-size: 25px;
+        line-height: 50px;
+        margin-left: 30px;
+        color: white;
+        font-weight: bold;
+    }
+    .header-contents{
+        height: 50px;
+    }
+    .header-right{
+        height: 50px;
+        margin-right: 50px;
+    }
+    .header-menu li{
+        width: 50px;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .header-menu{
+        height: 50px;
+    }
+    .header-menu a{
+        line-height: 50px;
+        margin: 0 5px;
+        height: 50px;
+    }
+    .icatch-img{
+        max-width: 90%;
+        height: 200px;
+        margin: 10px auto;
+        margin-bottom: 20px;
+        background-image:url("top.jpg");
+        background-size: cover;
+        box-shadow: 0 2px 6px;
+        position: relative;
+    }
+    .icatch-title{
+        font-size: 1.5em;
+    }
+    .i-come{
+        font-size: 0.8em;
+        position: absolute;
+        top: 30%;
+    }
+    .center-bar{
+        height: 36px;
+        line-height: 36px;
+    }
+    .top{
+        font-size: 0.7em;
+    }
+    .top-left{
+        display: none;
+    }
+    .top-center{
+        width: 65%;
+    }
+    .center-bar{
+        font-size: 18px;
+    }
+    .saisin-kizi{
+        height: 250px;
+    }
+    .kizi-img{
+        height: 130px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .top-right{
+        width: 34%;
+    }
+    footer{
+        font-size: 0.7em;
+    }
+}
