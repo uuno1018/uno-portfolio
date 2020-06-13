@@ -166,20 +166,21 @@ header{
 }
 .top{
     height: 600px;
-    background-image: url(rest-4933097__480.jpg);
+    background-image: url(foto/rest-4933097__480.jpg);
     background-size: cover;
     position: relative;
 }
 .top-message p{
     color: white;
-    font-size: 3.4em;
+    font-size:4.5em;
     font-weight: bold;
     font-family: serif;
     font-style: italic;
     position: absolute;
-    top: 320px;
+    top: 300px;
     left: 150px;
     z-index: 999;
+    text-shadow:black 10px 10px;
 }
 .top-news{
     display: flex;
@@ -193,7 +194,7 @@ header{
     width: 85%;
     background-color: white;
 }
-.news-left small{
+.news-left small,p{
     margin-left: 10px;
 }
 .news-right{
@@ -206,8 +207,19 @@ header{
     line-height: 70px;
 }
 @media screen and (max-width:768px){
+    .top{
+        height: 300px;
+    }
     .top-news{
         width: 100%;
+        position: absolute;
+        top: 230px;
+        left: 0;
+    }
+    .top-message p{
+        font-size:2em;
+        position: absolute;
+        top: 100px;
     }
 }
 .top2-ue{
@@ -229,21 +241,6 @@ header{
 .top2-ue-setumei h1,p{
     margin-bottom: 20px;
     z-index: 5;
-}
-.top2-ue-setumei a{
-    background-color: white;
-    color: black;
-    padding: 6px 14px;
-    font-size: 0.8em;
-    border-radius: 2px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-    z-index: 5;
-}
-.top2-ue-setumei a:hover{
-    background-color: black;
-    color: white;
 }
 .top2-img img{
     width: 40%;
@@ -283,14 +280,14 @@ header{
 }
 .service{
     width: 100%;
-    background-color: #eeeeee;
+    background-color: gray;
     position: relative;
 }
 .service-title{
     text-align: center;
     padding-top: 20px;
     font-family: serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     height: 70px;
     line-height: 70px;
 }
@@ -299,14 +296,15 @@ header{
 }
 .service-web{
     background-color: white;
-    padding: 60px 50px;
+    padding: 40px 40px;
     width: 30%;
     font-family: serif;
     box-sizing: border-box;
     z-index: 99;
+    border: #666 1px solid;
 }
 .service-web h1{
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 20px;
 }
 .service-web a{
@@ -326,7 +324,7 @@ header{
 }
 .web1{
     position: absolute;
-    top: 170px;
+    top: 200px;
     left: 300px;
 }
 .service-img img{
@@ -342,7 +340,7 @@ header{
 }
 .web2{
     position: absolute;
-    top: 180px;
+    top: 100px;
     left: 500px;
 }
 @media screen and (max-width:768px){
@@ -357,94 +355,34 @@ header{
     .service-contents2{
         margin-top: 0;
     }
-}
-.zyoho{
-    margin: 100px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: 300px;
-    text-align: center;
-}
-.conpany{
-    background-image: url(at-home-5000290__480.jpg);
-    background-size: cover;
-    width: 48%;
-    font-family: serif;
-    font-size: 1.4em;
-    padding-top: 90px;
-    color: white;
-}
-.recruit{
-    background-image: url(fantasy-5079313__480.jpg);
-    background-size: cover;
-    width: 48%;
-    font-family: serif;
-    font-size: 1.4em;
-    padding-top: 90px;
-}
-@media screen and (max-width:768px){
-    .zyoho{
-        height: 800px;
+    .web2{
+        margin-top: 80px;
     }
-    .conpany,.recruit{
-        width: 100%;
-        margin: 0 auto;
-        height: 300px;
+    .img2{
+        margin-top: 20px;
     }
 }
-.Q{
-    height: 80px;
-    font-family: serif;
-    line-height: 80px;
-    background-color: black;
-    color: white;
-    width: 70%;
-    margin: 0 auto;
-    text-decoration: none;
-    margin-bottom: 100px;
-    position: relative;
-}
-.Q-nakami{
-    display: flex;
-    width: 95%;
-    margin: 0 auto;
-}
-.Q-nakami p{
-    font-size: 1.2em;
-    margin: 0 auto;
-    padding-right: 67.55px;
-}
-.Q-nakami a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.2s;
-}   
-.Q a:hover{
-    opacity: 0.8;
-}
+
 .last{
-    background-image: url(山.jpg);
+    margin-top: 100px;
+    background-image: url(foto/山.jpg);
     background-size: cover;
     text-align: center;
     color: white;
     font-family: serif;
     text-align: center;
-    padding: 100px 20px;
+    padding: 30px 50px;
 }
 .last-ko{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .last-title{
     line-height: 50px;
     font-size: 48px;
+    margin-bottom: 30px;
 }
 .last-a{
-    width: 15%;
+    width: 20%;
     margin: 30px auto;
     border: 1px white solid;
     position: relative;
@@ -453,27 +391,32 @@ header{
 .last-a p{
     margin: 2px 5px;
 }
-.a{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.pr-main{
+    margin-bottom: 40px;
 }
-.last-a:hover{
-    background-color: white;
-    color: black;
+.pr{
+    margin-bottom: 50px;
 }
-@media screen and (max-width:768px){
-    .last-a{
-        width: 20%;
-    }
+.mail{
+    margin-bottom: 0;
+}
+.renrakusaki{
+    text-align: center;
+    padding: 300px 0;
+    font-family: serif;
+    font-style: italic;
+    background:linear-gradient(black, #17184B);
+    color: white;
+}
+.address{
+    font-style: normal;
 }
 footer{
     height: 70px;
     background-color: black;
     color: white;
     position: relative;
+    padding-top: 20px;
 }
 .footer-ko{
     display: flex;
