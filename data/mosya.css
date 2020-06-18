@@ -184,6 +184,9 @@ header{
     letter-spacing: 1px;
     font-size: 0.75rem;
 }
+.syokai{
+    font-size: 1rem;
+}
 @media screen and (max-width: 1024px) {
     .kizi-title{
         font-size: 14px;
@@ -266,6 +269,7 @@ header{
     margin-inline-start: 0px;
     letter-spacing: 1px;
     margin-inline-end: 0px;
+    font-family: 'Noto Sans Japanese', sans-serif;
 }
 @media screen and (max-width: 767px) {
     .sidebar{
@@ -342,6 +346,9 @@ header{
     font-size: 0.85rem;
     font-weight: 200;
     letter-spacing: 1px;
+}
+.b2-setumei p{
+    font-family: 'Noto Sans Japanese', sans-serif;
 }
 .b2-toshow{
     width: 50%;
