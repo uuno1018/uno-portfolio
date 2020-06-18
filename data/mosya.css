@@ -184,6 +184,9 @@ header{
     letter-spacing: 1px;
     font-size: 0.75rem;
 }
+.syokai{
+    font-size: 1rem;
+}
 @media screen and (max-width: 1024px) {
     .kizi-title{
         font-size: 14px;
