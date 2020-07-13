@@ -331,7 +331,7 @@ header{
 }
 .web1{
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 27%;
 }
 .service-img img{
@@ -343,7 +343,7 @@ header{
     text-align: right;
 }
 .service-contents2{
-    margin-top:200px;
+    margin-top:210px;
     position: relative;
 }
 .web2{
@@ -360,6 +360,19 @@ header{
     position: absolute;
     top: 35%;
     left: 27%;
+}
+.service-contents4{
+    margin-top: 170px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.web4{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.senden{
+    padding: 20px 0;
 }
 .senden h2{
     text-align: center;
@@ -404,6 +417,18 @@ header{
     }
     .service-web h1{
         font-size: 1.4em;
+    }
+    .service-contents2{
+        margin-top: 180px;
+    }
+    .service-contents3{
+        padding: 0;
+    }
+    .service-contents4{
+        margin-top: 180px;
+    }
+    .senden{
+        padding: 10px 0;
     }
 }
 
