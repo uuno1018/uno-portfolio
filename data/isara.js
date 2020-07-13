@@ -22,4 +22,7 @@ $(function () {
         $(this).next(".txt12syo").slideToggle(400);
         $(this).children(".yazirusi12").toggleClass("yaya");
     });
+    $('.batu').click(function(){
+        $('.iam').hide(300);
+    });
 });

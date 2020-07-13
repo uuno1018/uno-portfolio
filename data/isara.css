@@ -223,6 +223,9 @@ header{
     margin: 0;
     line-height: 44.8px;
 }
+.hover :hover{
+    background-color: #b84940;
+}
 .kikan p{
     font-size: 21px;
     font-weight: 600;
@@ -1689,4 +1692,32 @@ footer p{
         font-size: 14px;
     }
 }
-
+.iam{
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    font-size: 14px;
+    line-height: 30px;
+    width: 200px;
+    padding: 20px 30px;
+    padding-bottom: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 14;
+    box-shadow: black 2px 2px;
+}
+.iam p{
+    margin: 0;
+}
+.batu{
+    width: 22px;
+    height: 22px;
+    border: 0.5px solid black;
+    line-height: 22px;
+    border-radius: 22px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: -195px;
+    cursor: pointer;
+}
